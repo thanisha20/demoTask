@@ -1,12 +1,16 @@
-/*.welcomepage{
-        display: flex;
-        height: 900px;
-        justify-content: center;
-        align-items: center;
-}*/
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }
+
+  #go{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .module1container{
+    padding: 2%;
+  }
 
 ul {
-    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,3 +34,7 @@ ul {
     background-color: lightblue;
     color: white;
   }
+button{
+  border: white
+}
+ 
