@@ -26,6 +26,8 @@ import { MainPageComponent } from './main-page/main-page.component';
 
 const appRoute: Routes = [
   //{path:'', redirectTo:'Module1a', pathMatch:'full'},
+
+  {path:'', component: MainPageComponent},
   {path:'Module1', component: Module1Component},
   {path:'Module2', component: Module2Component},
   {path:'Module1/Module1a', component: Module1aComponent},

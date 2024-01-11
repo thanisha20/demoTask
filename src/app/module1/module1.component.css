@@ -2,18 +2,29 @@
     display: flex;
     justify-content: flex-end;
   }
-  .module1container{
-    padding: 2%;
-  }
-
+  
+  
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 15%;
+    height: 100%;
     background-color: #f1f1f1;
+    position: fixed;
+    overflow: auto;
+    
   }
-
+/*ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}*/
   li a {
     display: block;
     color: #000;
@@ -31,8 +42,8 @@ ul {
     color: white;
   }
 
-  button{
+ /* button{
     border: white;
     margin: 5%;
-  }
+  }*/
  

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+//import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,8 +8,11 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'demo1';
-  constructor(private dialogRef: NgbModal) {}
+  /*title = 'demo1';
+  constructor(private router: Router) {}
+  newChange(): void{
+  this.router.navigateByUrl('module1');
+}*/
 
-  
+
 }
